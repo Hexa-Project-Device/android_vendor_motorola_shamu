@@ -293,6 +293,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+    vendor/motorola/shamu/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
+    vendor/motorola/shamu/proprietary/app/ims/lib/arm/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
     vendor/motorola/shamu/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/shamu/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/shamu/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
@@ -301,6 +303,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/motorola/shamu/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
+    vendor/motorola/shamu/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/motorola/shamu/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/motorola/shamu/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/shamu/proprietary/vendor/lib/lib-ims-setting-jni.so:system/vendor/lib/lib-ims-setting-jni.so \
     vendor/motorola/shamu/proprietary/vendor/lib/lib-ims-settings.so:system/vendor/lib/lib-ims-settings.so \
@@ -351,12 +355,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/bin/tcmd_mini:system/bin/tcmd_mini \
     vendor/motorola/shamu/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
     vendor/motorola/shamu/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/motorola/shamu/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/motorola/shamu/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/shamu/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/shamu/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
@@ -403,5 +407,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/shamu/proprietary/vendor/firmware/aonvr1.bin:system/vendor/firmware/aonvr1.bin \
     vendor/motorola/shamu/proprietary/vendor/firmware/aonvr2.bin:system/vendor/firmware/aonvr2.bin \
-    vendor/motorola/shamu/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \
-    vendor/motorola/shamu/proprietary/vendor/firmware/bcm4354A2.hcd:system/vendor/firmware/bcm4354A2.hcd
+    vendor/motorola/shamu/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd
